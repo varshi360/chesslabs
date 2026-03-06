@@ -14,6 +14,9 @@
 - **📜 Move History** — Full move list in chess notation, auto-scrolling
 - **↩️ Undo / Redo** — Navigate back and forward through move history
 - **🏁 Game Over Detection** — Detects checkmate, stalemate, and draw conditions
+- **📊 Evaluation Bar** — Visual bar showing position advantage for white or black in real time
+- **🔄 Board Flip** — Switch board perspective between white and black
+- **🤖 Engine Mode** — Play against Stockfish AI, engine automatically responds as Black
 - **📋 FEN Import / Export** — Load any position via FEN string and copy the current FEN
 - **🔄 Auto-apply Move** — Toggle to automatically play Stockfish's suggestion
 
@@ -101,6 +104,12 @@ Frontend runs at `http://localhost:3000`
 4. Use **⬅ Undo** and **Redo ➡** to navigate move history
 5. Toggle **Auto-apply move** to let Stockfish play automatically
 
+### Engine Mode
+1. Click **🤖 Engine** in the mode toggle
+2. You play as **White**, Stockfish automatically responds as **Black**
+3. A thinking overlay appears while the engine calculates
+4. Use **⬅ Undo** to take back moves
+
 ### Edit Mode
 1. Click **✏️ Edit Mode**
 2. Select a piece from the left (black) or right (white) palette
@@ -117,9 +126,17 @@ Frontend runs at `http://localhost:3000`
 
 ## 📸 Screenshots
 
-> Play Mode with Stockfish move suggestion arrow
+### Play Mode - Interactive chess with Stockfish move suggestions and arrow visualization
+![Play Mode](https://github.com/varshi360/chesslabs/blob/main/screenshots/play-mode.png)
 
-> Edit Mode with piece palette
+### Engine Mode - Play against Stockfish AI with real-time evaluation bar
+![Engine Mode](https://github.com/varshi360/chesslabs/blob/main/screenshots/engine-mode.png)
+
+### Engine Thinking - Engine thinks and plays itself with the opponent
+![Engine Thinking](https://github.com/varshi360/chesslabs/blob/main/screenshots/engine-thinking.png)
+
+### Edit Mode or Custom Mode - Set up any custom position using the drag-and-drop piece palette
+![Edit Mode or Custom Mode](https://github.com/varshi360/chesslabs/blob/main/screenshots/custom-mode.png)
 
 ---
 
@@ -146,4 +163,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-> > Built as an undergraduate engineering portfolio project demonstrating full-stack development with AI integration.
+> Built as an undergraduate engineering portfolio project demonstrating full-stack development with AI integration.
