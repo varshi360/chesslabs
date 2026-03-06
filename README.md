@@ -146,4 +146,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-> Built as a BTech 3rd year portfolio project demonstrating full-stack development with AI integration.
+> > Built as an undergraduate engineering portfolio project demonstrating full-stack development with AI integration.
